@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/circle_loading_color_1"
+                android:orientation="vertical">
+
+    <com.example.sofina.scrollviewcovertop.scroll.ScaleTopView
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="60dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="I am a TopView"/>
+
+
+    </com.example.sofina.scrollviewcovertop.scroll.ScaleTopView>
+
+
+    <com.example.sofina.scrollviewcovertop.scroll.MyBottomScrollLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:scrollbars="none"
+            android:background="@color/bg_gray">
+
+        <LinearLayout
+                android:id="@+id/v5_main_clean_card_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1000dp"
+                    android:text="谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了\n谁带个你啊你发呢发is喝了咖啡哈斯求好人法扩散附上发已US佛按覅偶为案件向困难大佛IE内容发卡机塑料颗粒买电脑发酵日了"/>
+
+        </LinearLayout>
+    </com.example.sofina.scrollviewcovertop.scroll.MyBottomScrollLayout>
+
+</RelativeLayout>

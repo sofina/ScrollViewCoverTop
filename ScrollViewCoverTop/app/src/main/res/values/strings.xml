@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScrollViewCoverTop</string>
+    <string name="action_settings">Settings</string>
+    <string name="up_scroll_list">可盖住TOP的ScrollView</string>
+</resources>
