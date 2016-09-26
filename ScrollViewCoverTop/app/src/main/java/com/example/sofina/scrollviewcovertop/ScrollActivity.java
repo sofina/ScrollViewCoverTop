@@ -2,6 +2,7 @@ package com.example.sofina.scrollviewcovertop;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.example.sofina.scrollviewcovertop.scroll.BottomScrollView;
 import com.example.sofina.scrollviewcovertop.scroll.MyBottomScrollLayout;
 import com.example.sofina.scrollviewcovertop.scroll.ScaleTopView;
 import com.example.sofina.scrollviewcovertop.utils.CommonUIUtils;
@@ -13,16 +14,15 @@ public class ScrollActivity extends Activity {
 
     private ScaleTopView mTopView;
 
-    private MyBottomScrollLayout mBottomScrollLayout;
+    private BottomScrollView mBottomScrollLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.scroll_layout);
-        mTopView = (ScaleTopView) findViewById(R.id.top);
-        mBottomScrollLayout = (MyBottomScrollLayout) findViewById(R.id.bottom);
-        mBottomScrollLayout.setEnable(true);
+       // mTopView = (ScaleTopView) findViewById(R.id.top);
+        mBottomScrollLayout = (BottomScrollView) findViewById(R.id.bottom);
         mBottomScrollLayout.init(0, CommonUIUtils.dip2px(this, 250), mScrollEvent);
     }
 
@@ -30,12 +30,12 @@ public class ScrollActivity extends Activity {
 
         @Override
         public void onScroll(float f) {
-            mTopView.scale(f);
+        //    mTopView.scale(f);
         }
 
         @Override
         public void onAutoScroll(boolean upOrDown) {
-            mTopView.autoScale(upOrDown ? 0 : 1);
+        //    mTopView.autoScale(upOrDown ? 0 : 1);
         }
     };
 

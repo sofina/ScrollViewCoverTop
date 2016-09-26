@@ -47,8 +47,8 @@ public class MyBottomScrollLayout extends ScrollView {
 
     @TargetApi(Build.VERSION_CODES.CUPCAKE)
     public void init(int topPx, int bottomPx, OnScrollEvent onScrollEvent) {
-        mMinY = topPx;
-        mMaxY = bottomPx;
+        mMinY = - bottomPx;
+        mMaxY = 0;
         mOnScrollEvent = onScrollEvent;
         ViewConfiguration configuration = ViewConfiguration.get(getContext());
         mTouchSlop = configuration.getScaledTouchSlop();
